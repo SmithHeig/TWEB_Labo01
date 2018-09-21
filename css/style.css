@@ -1,0 +1,107 @@
+body {
+  background-color: #eee;
+}
+
+.main {
+  background-color: white;  
+
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  text-align: center;
+  padding: 20px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 800px;
+  height: 400px;
+  align-items: stretch;
+  display: flex;
+  justify-content: center;
+}
+
+#user {
+  height: 300px;
+  width: 175px;
+  border-radius: 10px;
+}
+
+.picture {
+  width: 40%;
+}
+
+.box {
+  width: 100%;
+}
+
+.user-details {
+  flex: 1;
+  width:100%;
+  height: 100%;
+
+  text-align: left;
+
+  position: relative;
+
+  left: 0;
+}
+
+.user-information {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.user-information div {
+  width: calc(100% / 3);
+}
+
+.details {
+  color: #888;
+}
+
+#button-subscribe {
+  background-color: #5adb5a;
+  color: white;
+  cursor: pointer;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  border-radius: 10px;
+
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+
+  transition: width 300ms, height 300ms, right 300ms, top 300ms, font-size 300ms, margin-top 300ms;
+}
+
+.button-subscribe-over {
+  margin-top: 200px;
+}
+
+.certify-logo {
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  text-align: center;
+
+  background-color: #0066ff;
+  color: white;
+
+  border-radius: 50%;
+
+  margin-left: 10px;
+}
